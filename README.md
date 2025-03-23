@@ -6,10 +6,10 @@
 ![PyPI - Version](https://img.shields.io/pypi/v/colorama?style=flat&label=colorama)
 
 
-## Установка
+## Подключение
 Прежде чем использовать модуль, убедитесь, что у вас установлен Python версии 3.x и выше.
 ```python
-import logger
+import loggeringpy
 ```
 ## Функции модуля
 # 1. Создание файла для логирования:
@@ -33,7 +33,7 @@ writing - Будут ли логи записыватся в файл. True - д
 
 # Пример:
 ```python
-import logging
+import loggeringpy
 
 logger.create_file("log", "./assets", ".log", True)
 ```
@@ -63,7 +63,7 @@ text -> Текст который будет выведен в консоль и
 
 Пример:
 ```python
-import logging
+import loggeringpy
 
 logger.create_file("log", "./assets", ".log", True)
 logger.info("Test, check file and console")
@@ -91,7 +91,7 @@ text -> Текст который будет выведен в консоль и
 
 
 ```python
-import logging
+import loggeringpy
 
 logger.create_file("log", "./assets", ".log", True)
 logger.warning("Test, check file and console")
@@ -117,7 +117,7 @@ text -> Текст который будет выведен в консоль и
 
 
 ```python
-import logging
+import loggeringpy
 
 logger.create_file("log", "./assets", ".log", True)
 logger.success("Test, check file and console")
@@ -142,7 +142,7 @@ text -> Текст который будет выведен в консоль и
 
 
 ```python
-import logging
+import loggeringpy
 
 logger.create_file("log", "./assets", ".log", True)
 logger.critical("Test, check file and console")
@@ -169,7 +169,7 @@ text -> Текст который будет выведен в консоль и
 
 
 ```python
-import logging
+import loggeringpy
 
 logger.create_file("log", "./assets", ".log", True)
 logger.debug("Test, check file and console")
