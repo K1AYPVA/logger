@@ -36,7 +36,7 @@ import pyloggering
 
 pyloggering.create_file("log","./assets","log")
 ```
-Output:
+### Вывод:
 
 
 ![image](https://github.com/user-attachments/assets/46ca7094-5031-45cf-b1d9-e2c61175dabd)
